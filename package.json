@@ -4,7 +4,6 @@
   "description": "app",
   "author": "Snyk Ltd.",
   "dependencies": {
-    "jscs": "2.11.0"
     "a": "https://github.com/grnd/a",
     "b": "https://github.com/grnd/b",
     "express-handlebars": "3.0.0",
