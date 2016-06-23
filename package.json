@@ -1,0 +1,15 @@
+{
+  "name": "@snyk/app",
+  "version": "0.0.1",
+  "description": "app",
+  "author": "Snyk Ltd.",
+  "dependencies": {
+    "jscs": "2.11.0"
+    "a": "https://github.com/grnd/a",
+    "b": "https://github.com/grnd/b",
+    "express-handlebars": "3.0.0",
+    "geoip-lite": "1.1.8",
+    "bower-installer": "0.8.4",
+    "babel-core": "6.8.0"
+  }
+}
