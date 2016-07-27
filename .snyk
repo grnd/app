@@ -1,0 +1,39 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:hawk:20160119':
+    - bower-installer > bower > bower-registry-client > request > hawk:
+        patched: '2016-07-27T21:49:18.076Z'
+    - bower-installer > bower > request > hawk:
+        patched: '2016-07-27T21:49:18.076Z'
+  'npm:minimatch:20160620':
+    - a > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - bower-installer > glob > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - bower-installer > bower > glob > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - a > jscs > vow-fs > glob > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - b > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - b > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+    - b > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-27T21:49:18.076Z'
+  'npm:request:20160119':
+    - bower-installer > bower > request:
+        patched: '2016-07-27T21:49:18.076Z'
+    - bower-installer > bower > bower-registry-client > request:
+        patched: '2016-07-27T21:49:18.076Z'
+  'npm:semver:20150403':
+    - bower-installer > bower > semver:
+        patched: '2016-07-27T21:49:18.076Z'
+    - bower-installer > bower > update-notifier > semver-diff > semver:
+        patched: '2016-07-27T21:49:18.076Z'
+  'npm:shell-quote:20160621':
+    - bower-installer > bower > shell-quote:
+        patched: '2016-07-27T21:49:18.076Z'
+  'npm:uglify-js:20151024':
+    - bower-installer > bower > handlebars > uglify-js:
+        patched: '2016-07-27T21:49:18.076Z'
