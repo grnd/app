@@ -9,6 +9,12 @@
     "express-handlebars": "3.0.0",
     "geoip-lite": "1.1.8",
     "bower-installer": "0.8.4",
-    "babel-core": "6.8.0"
-  }
+    "babel-core": "6.8.0",
+    "snyk": "^1.17.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

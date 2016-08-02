@@ -1,0 +1,10 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:minimatch:20160620':
+    - b > c > jscs > vow-fs > glob > minimatch:
+        patched: '2016-08-02T10:14:09.268Z'
+    - b > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-08-02T10:14:09.268Z'
+    - b > c > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2016-08-02T10:14:09.268Z'
