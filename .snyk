@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - a > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - b > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - b > c > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - b > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - b > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - b > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+    - bower-installer > bower > glob > minimatch:
+        patched: '2018-10-26T03:34:56.167Z'
+  'npm:tunnel-agent:20170305':
+    - bower-installer > bower > request > tunnel-agent:
+        patched: '2018-10-26T03:34:56.167Z'
+    - bower-installer > bower > bower-registry-client > request > tunnel-agent:
+        patched: '2018-10-26T03:34:56.167Z'
